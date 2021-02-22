@@ -3,7 +3,7 @@
 
 ## Overview of Analysis
 ### Purpose
-Analyze kickstarter campaign information to 
+Analyze kickstarter data to see if there is a correlation between the success rate and goal amount or launch date for kickstarter campaigns in the theatre industry.  
 
 ## Analysis and Challenges
 The dataset used for this analysis contained information on 4,115 kickstart campaigns across multiple fields of interest. For this report, we focused only on campaigns identifying as theatre. 
