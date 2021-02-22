@@ -34,7 +34,7 @@ The graph below shows the total number of successful, failed, and cancelled camp
 May, June & July also saw the highest total of successful campaigns at 111, 100, & 87 respectively giving those months the highest probability to succeed. Campaigns started in May were successful in over two-thirds of of cases (66.9%). June (65.4%) and July (63.0%) show similar but slightly less success. the month with the lowest rate of success was December. Of all campaigns initiated in December, less than half (48.3%) went on to hit their goal. 
 
 ![outcome by date](https://github.com/michaelsullivan0220/kickstarter-analysis/blob/michaelsullivan0220-patch-1/Resources/Theater_Outcomes_vs_Launch.png)
-*See Table 1.1 in Appendix for data included in the graph above:*
+*See Table 1.1 in Appendix for data included in the graph above.*
 
 ### Analysis of Outcomes Based on Goals
 #### Outcomes of Kickstarter Campaigns by Goal Amount ($)
@@ -44,16 +44,21 @@ Campaigns with a goal amount of less than $1,000 had the highest success rate at
 The goal range with the most campaigns was $1,000-$4,999. 534 campaigns with a goal in this range saw a 72.6% success rate. 
 
 ![outcome by goal](https://github.com/michaelsullivan0220/kickstarter-analysis/blob/michaelsullivan0220-patch-1/Resources/Outcomes_vs_Goals.png)
-*See Table 1.2 in Appendix for data included in the graph above:*
+*See Table 1.2 in Appendix for data included in the graph above.*
 
 ### Challenges and Difficulties Encountered
-There are not enough campaigns with a goal amount over $15,000 to draw meaningful conclusions on success rates. 
+There were challenges that were encountered due to the lack of information associated with campaigns with a goal amount of greater than 10,000. Most of the campaigns (84.9%) were skewed towards less than $10,000. Goal amounts between $35,000-$45,000 had success rates of 66.7%, but had to be ignored due to only 9 kickstart campaigns being referenced. 
 
 ## Results
 Starting a kickstarter campaign for a theatre project would have the best chance for success if intitiated in May, June or July. The data shows that a 65.2% chance of success for similar campaigns. In contrast, the holiday season should be avoided as a starting point. Campaigns initiated in Decemebr and through the new year into January had the worst rate of success at 54.3%.
 Campaigns should be initiated with a goal amount of less than $5,000. Of all 720 campaigns that were listed under $5,000, 73.4% found success. 
 Our recommedation is as follows: 
+
 **A theatre campaign should be launched in May and have a goal amount of less than $5,000.**
+
+The limitations of the data set restricts the confidence in recommending any campaigns over $10,000 goal value. Compared to the quantity of total campaigns, there are not enough campaigns with a goal amount over that value to draw any meaningful conclusions on success rates. 
+
+Caution should be taken when following a recommendation for initiating a campaign in a specific month. Sorting the campaigns by month could potentially skew this information as the theatre industry revolves around its own cyclical season and is usually associated with holidays and large events. For example, we know that December has very low success rate but do not know if Christmas week provides some success. It is after all a very important time for the theatre industry. Is the success rate in June high because of a Memorial Day surge? **We recommend comparing outcomes vs. major US Holidays to determine if their is a correlation. This can be done by changing the date grouping and plotting major holidays over time**
 
 ## Appendix
 *Table 1.1* 
