@@ -33,7 +33,7 @@ Two analysis were completed as for this report and are described in more detail 
 The graph below shows the total number of successful, failed, and cancelled campaigns based on the month they were intiated. The month with the highest total campaigns intitiated (TCI) was the month of May with 163. This is followed by June (153) and July (138). Months with the lowest TCI are December (75), November(88), and March (92). 
 May, June & July also saw the highest total of successful campaigns at 111, 100, & 87 respectively giving those months the highest probability to succeed. Campaigns started in May were successful in over two-thirds of of cases (66.9%). June (65.4%) and July (63.0%) show similar but slightly less success. the month with the lowest rate of success was December. Of all campaigns initiated in December, less than half (48.3%) went on to hit their goal. 
 
-![outcome by date](https://github.com/michaelsullivan0220/kickstarter-analysis/blob/michaelsullivan0220-patch-1/Resources/Theater_Outcomes_vs_Launch.png)
+![outcome by date](https://github.com/michaelsullivan0220/kickstarter-analysis/blob/main/Resources/Theater_Outcomes_vs_Launch.png)
 *See Table 1.1 in Appendix for data included in the graph above.*
 
 ### Analysis of Outcomes Based on Goals
@@ -43,7 +43,7 @@ To draw meaninigful conclusions for this analysis, focus was put on campaigns wi
 Campaigns with a goal amount of less than $1,000 had the highest success rate at 75.81%. As expected, these rates decline as the goal amount increases. Campaigns with a goal amount of $15,000-$19,999 yielded a 50% success rate across 24 kickstarters.
 The goal range with the most campaigns was $1,000-$4,999. 534 campaigns with a goal in this range saw a 72.6% success rate. 
 
-![outcome by goal](https://github.com/michaelsullivan0220/kickstarter-analysis/blob/michaelsullivan0220-patch-1/Resources/Outcomes_vs_Goals.png)
+![outcome by goal](https://github.com/michaelsullivan0220/kickstarter-analysis/blob/main/Resources/Outcomes_vs_Goals.png)
 *See Table 1.2 in Appendix for data included in the graph above.*
 
 ### Challenges and Difficulties Encountered
